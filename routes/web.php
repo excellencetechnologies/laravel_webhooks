@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/webhook', function(){
+
+    Log::info('Webhook is calling.');
+
+});
