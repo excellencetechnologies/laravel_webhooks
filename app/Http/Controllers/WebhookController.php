@@ -11,7 +11,7 @@ class WebhookController extends Controller
     {        
         Log::info('Webhook is working at start.');
 
-        define('SHOPIFY_APP_SECRET', '84ebb418d7bf787474319ff18c21e1c4');
+        define('SHOPIFY_APP_SECRET', env('SHOPIFY_SECRET_KEY'));
 
         function verify_webhook($data, $hmac_header)
         {
