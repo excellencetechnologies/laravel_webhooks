@@ -17,9 +17,9 @@ class MailController extends Controller
     {
         $this->email = $email;
                                     
-        Mail::send('orders.orders', [], function($message) {  
-
-            $pdf = PDF::loadView('orders.orders');
+        Mail::send('orders.orders', [], function($message) {
+            
+            $pdf = PDF::loadView('orders.orders')->setPaper('a3', 'potrait');
             $message->to($this->email)
                     ->subject('Order Placed successfully.')
                     ->attachData($pdf->output(), "invoice.pdf");

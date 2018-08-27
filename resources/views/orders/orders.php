@@ -15,7 +15,7 @@
                 <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="width:600; background-color: #ffffff; color: #514d6a; padding: 40px; margin-top: 40px; line-height: 28px;" bgcolor="#ffffff">
                     <tr>
                         <td style="text-align: center; vertical-align: top;">
-                            <img src="https://ncrjobs.in/logo/20180712150406000000.jpg" alt="Excellence Technologies" style="border:none; display:inline-block;" height="40" width="170">
+                            <img src="https://globalhappiness.org/wp-content/uploads/2017/03/shopify-logo.png" alt="Shopify Logo" style="border:none; display:inline-block;" height="80" width="170">
                         </td>
                     </tr>
 
@@ -172,9 +172,9 @@
 
                     <tr>
                         <td style="text-align: center; padding-top: 30px; padding-bottom: 60px;">
-                        <a href="javascript: void(0);" style="letter-spacing: -1px; font-family: 'Open Sans',Helvetica,Arial,sans-serif; text-decoration: none; display: block; line-height: 70px; padding-left: 30px; padding-right: 30px; border-radius: 3px; font-size: 24px; color: #fff; background-color: #27cbcc;" target="_blank">
-                            Back to shop
-                        </a>
+                            <a href="javascript: void(0);" style="letter-spacing: -1px; font-family: 'Open Sans',Helvetica,Arial,sans-serif; text-decoration: none; display: block; padding: 20px; border-radius: 3px; font-size: 24px; color: #fff; background-color: #27cbcc;" target="_blank">
+                                Back to shop
+                            </a>
                         </td>
                     </tr>
 
@@ -202,7 +202,7 @@
                 <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border:none; width:600; margin-top: 20px; margin-bottom: 40px; text-align: center; color: #85868a;">
                     <tr>
                         <td style="padding-top: 20px;">
-                        Copyright &copy; 2018 Excellence Technologies. All Rights Reserved. We appreciate you!
+                            Copyright &copy; <?php echo date('Y'); ?> <?php echo $shop_data['shop']['name']; ?>. All Rights Reserved. We appreciate you!
                         </td>
                     </tr>
 
