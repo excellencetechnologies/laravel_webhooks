@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::post('/webhook', 'WebhookController@index');
+
+Route::post('/order_place', 'OrderPlaceController@index');
